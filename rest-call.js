@@ -12,7 +12,7 @@ frm.onsubmit = e => {
         const rawResponse = await fetch('https://6jgtex0i81.execute-api.us-east-1.amazonaws.com/default/createEnquiry', {
             method: 'POST',
             headers: {
-                'Accept': 'application/json',
+//                 'Accept': 'application/json',
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({ mobile: '1234555', ip: '127.0.0.1', name: 'abc', course: 'android', email: 'acc@ss.com' })
